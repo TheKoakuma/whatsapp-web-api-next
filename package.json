@@ -1,24 +1,21 @@
 {
-  "private": true,
+  "name": "whatsnext",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "node server.js",
-    "build": "next build",
-    "start": "cross-env NODE_ENV=production node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "axios": "^0.27.2",
-    "cross-env": "^7.0.2",
-    "express": "^4.17.1",
-    "express-validator": "^6.14.1",
-    "fs": "^0.0.1-security",
-    "http": "^0.0.1-security",
-    "mime-types": "^2.1.35",
-    "next": "latest",
-    "qrcode": "^1.5.0",
-    "qrcode-terminal": "^0.12.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "socket.io": "^4.5.1",
-    "whatsapp-web.js": "^1.16.6"
+    "next": "^13.4.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "socket.io": "^4.6.2",
+    "socket.io-client": "^4.6.2",
+    "whatsapp-web.js": "^1.21.0"
   }
 }
